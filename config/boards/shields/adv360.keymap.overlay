@@ -1,0 +1,9 @@
+/ {
+  behaviors {
+    ble_toggle: ble_toggle {
+      compatible = "zmk,behavior-momentary";
+      label = "BLE_TOGGLE";
+      #binding-cells = <0>;
+    };
+  };
+};
